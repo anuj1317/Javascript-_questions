@@ -1,4 +1,4 @@
-
+//Simple Interest
 function geek() {
     var p = prompt("Please enter principal", "");
     var r = prompt("Please enter rate", "");
@@ -7,6 +7,7 @@ function geek() {
     document.getElementById("output").textContent = "Simple Interest is " + val;
 }
 
+// Area of Circle
 function areaOfCircle() {
     var radius = prompt("Enter Radius", "");
     let area = 3.14 * radius * radius;
@@ -14,7 +15,7 @@ function areaOfCircle() {
 
 }
 
-// program to check if the string is palindrome or not
+// Program to check if the string is palindrome or not
 
 function checkPalindrome() {
     // take input
@@ -39,10 +40,5 @@ function checkPalindrome() {
     }
 }
 
-
-
-// call the function
-// const value = checkPalindrome(string);
-// document.getElementById("output").textContent = value;
 
 
